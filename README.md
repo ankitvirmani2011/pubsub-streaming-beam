@@ -1,1 +1,1 @@
-# pubsub-streaming-beam
+This repo is used to read streaming JSON data from pub/sub, process it using Apache Beam and then write it back to another Pub/Sub topic that can be then used to fire streaming dashboards (using a python client in the scope of this repo), or web frameworks using websockets on Django, node etc
